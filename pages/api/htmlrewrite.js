@@ -46,37 +46,6 @@ module.exports = async (req, res) => {
         <img alt="logo" class="logo" src="${siteConfigObj['Site Logo']}" />
       </a>
     </label>
-    <div class="navigation__background"></div>
-
-    <p class="navigation__title">${siteConfigObj['Site Name']}</p>
-
-    <nav class="navigation__nav" role="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="/" class="navigation__link">${siteConfigObj['Home Menu Text']}</a>
-        </li>
-        <li class="navigation__item">
-          <a href="/archive" class="navigation__link">${siteConfigObj['Archive Menu Text']}</a>
-        </li>
-        <li class="navigation__item">
-          <a href="/about" target="_blank" class="navigation__link">${siteConfigObj['About Menu Text']}</a>
-        </li>
-      </ul>
-      <p class="footer">${siteConfigObj['Footer Text']}</p>
-    </nav>
-
-    <div class="navigation__icon">
-      <a target="_blank" href=${siteConfigObj['First Social Link']}>
-        <img alt="Telegram" src="${siteConfigObj['First Social Icon']}" />
-      </a>
-      <a target="_blank" href=${siteConfigObj['Second Social Link']}>
-        <img alt="Twitter" src="${siteConfigObj['Second Social Icon']}" />
-      </a>
-      <a target="_blank" href=${siteConfigObj['Third Social Link']}>
-        <img alt="Giithub" src="${siteConfigObj['Third Social Icon']}" />
-      </a>
-    </div>
-
   </div>
   `
 

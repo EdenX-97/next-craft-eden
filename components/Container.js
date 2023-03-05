@@ -70,7 +70,7 @@ const Container = ({ children, siteConfigObj, ...customMeta }) => {
           BLOG.font === 'serif' ? 'font-serif' : 'font-sans'
         }`}
       >
-        {/* <Header navBarTitle={meta.title} siteConfigObj={siteConfigObj} /> */}
+        <Header navBarTitle={meta.title} siteConfigObj={siteConfigObj} />
         <main className='m-auto flex-grow w-full transition-all max-w-2xl px-4'>
           {children}
         </main>
